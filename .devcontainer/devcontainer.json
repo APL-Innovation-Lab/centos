@@ -1,0 +1,16 @@
+{
+    "name": "CentOS with PHP",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "felixfbecker.php-debug"
+    ],
+    "forwardPorts": [
+        80
+    ],
+    "remoteUser": "root"
+}
